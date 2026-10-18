@@ -1,0 +1,1 @@
+window.docContents[108].resolve({"/Cat-Haikus/NTU-Cats/Snail/#Bonjour--Cat-Haikus--NTU-Cats--Snail":{"contents":"Resting at one end\n\nof a long and arduous bridge\n\nis a little snail.\n\n \n\n","context":"Bonjour\u0009Cat Haikus\u0009NTU Cats","header":"1.1.7. Snail","id":"/Cat-Haikus/NTU-Cats/Snail/#Bonjour--Cat-Haikus--NTU-Cats--Snail"}});

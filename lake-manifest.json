@@ -61,6 +61,6 @@
    "inputRev": "main",
    "inherited": true,
    "configFile": "lakefile.lean"}],
- "name": "textbook",
+ "name": "netring",
  "lakeDir": ".lake",
  "fixedToolchain": false}

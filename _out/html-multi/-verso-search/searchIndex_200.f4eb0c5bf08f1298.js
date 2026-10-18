@@ -1,0 +1,1 @@
+window.docContents[200].resolve({"/Cat-Haikus/SUTD-Cats/Dreams/#Bonjour--Cat-Haikus--SUTD-Cats--Dreams":{"contents":"The schoolbell's ringing\n\nspurs the crowd to wayward flight\n\nand a kitty dreams.\n\n \n\n","context":"Bonjour\u0009Cat Haikus\u0009SUTD Cats","header":"1.3.3. Dreams","id":"/Cat-Haikus/SUTD-Cats/Dreams/#Bonjour--Cat-Haikus--SUTD-Cats--Dreams"}});

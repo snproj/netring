@@ -6,14 +6,14 @@ Author: David Thrane Christiansen
 
 import Std.Data.HashMap
 import VersoManual
-import TextbookTemplate
+import Netring
 
 open Verso Doc
 open Verso.Genre Manual
 
 open Std (HashMap)
 
-open TextbookTemplate
+open Netring
 
 
 -- Computes the path of this very `main`, to ensure that examples get names relative to it
@@ -80,10 +80,17 @@ where
     | .para .. | .code .. => pure ()
 
 
+open Verso.Output Html in
 def config : RenderConfig where
   emitTeX := false
   emitHtmlSingle := .no
   emitHtmlMulti := .immediately
-  htmlDepth := 2
+  htmlDepth := 5
+  -- Copy the stylesheet into the output and link it from every page's `<head>`
+  extraFilesHtml := [("custom_css", "custom_css"), ("assets", "assets")]
+  extraHead := #[
+    {{<link rel="stylesheet" href="custom_css/dark_mode.css"/>}},
+    {{<link rel="stylesheet" href="custom_css/image_sizing.css"/>}}
+  ]
 
-def main := manualMain (%doc TextbookTemplate) (extraSteps := [buildExercises]) (config := config)
+def main := manualMain (%doc Netring) (extraSteps := [buildExercises]) (config := config)

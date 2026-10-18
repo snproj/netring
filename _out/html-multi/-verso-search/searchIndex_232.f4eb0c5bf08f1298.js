@@ -1,0 +1,1 @@
+window.docContents[232].resolve({"/Cat-Haikus/SUTD-Cats/Journey/#Bonjour--Cat-Haikus--SUTD-Cats--Journey":{"contents":"The world is too big...\n\nAt least it means I can go\n\nanywhere I want!\n\n \n\n","context":"Bonjour\u0009Cat Haikus\u0009SUTD Cats","header":"1.3.5. Journey","id":"/Cat-Haikus/SUTD-Cats/Journey/#Bonjour--Cat-Haikus--SUTD-Cats--Journey"}});

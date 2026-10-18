@@ -1,5 +1,5 @@
-name = "textbook"
-defaultTargets = ["TextbookTemplate", "textbook"]
+name = "netring"
+defaultTargets = ["Netring", "netring"]
 
 [[require]]
 name = "verso"
@@ -7,8 +7,8 @@ git = "https://github.com/leanprover/verso"
 rev = "v4.35.0"
 
 [[lean_lib]]
-name = "TextbookTemplate"
+name = "Netring"
 
 [[lean_exe]]
-name = "textbook"
-root = "TextbookTemplateMain"
+name = "netring"
+root = "NetringMain"

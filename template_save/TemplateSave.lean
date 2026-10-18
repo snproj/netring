@@ -1,3 +1,20 @@
+
+
+/-
+
+This page is not linked into the actual website; it's just for me to reference.
+
+-/
+
+
+
+
+
+
+
+
+
+
 /-
 Copyright (c) 2024-2025 Lean FRO LLC. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
@@ -24,16 +41,20 @@ open TextbookTemplate
 set_option pp.rawOnError true
 
 
-#doc (Manual) "A Textbook" =>
+#doc (Manual) "Bonjour" =>
 
 %%%
-authors := ["David Thrane Christiansen"]
+authors := ["Sunrise"]
 %%%
 
 {index}[example]
-Here's an example project showing how to build a certain kind of textbook with Verso.
-It's a good idea to read the document's source together with the rendered output, because it demonstrates how to use various features.
 
+
+# Uhh
+
+lmao
+
+## subheader maybe?
 
 # Lean Code
 

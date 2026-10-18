@@ -1,0 +1,1 @@
+window.docContents[52].resolve({"/Cat-Haikus/NTU-Cats/Dance/#Bonjour--Cat-Haikus--NTU-Cats--Dance":{"contents":"hare's hearing, lion's sight —\n\nred leaves flutter on bird's tail —\n\nhow the autumn dances\n\n \n\n","context":"Bonjour\u0009Cat Haikus\u0009NTU Cats","header":"1.1.2. Dance","id":"/Cat-Haikus/NTU-Cats/Dance/#Bonjour--Cat-Haikus--NTU-Cats--Dance"}});
