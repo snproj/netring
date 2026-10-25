@@ -1,1 +1,0 @@
-window.docContents[188].resolve({"/Cat-Haikus/SUTD-Cats/Curtain/#Bonjour--Cat-Haikus--SUTD-Cats--Curtain":{"contents":"Could a blue curtain\n\ngive relief to those who lack\n\nof a clear blue sky?\n\n \n\n","context":"Bonjour\u0009Cat Haikus\u0009SUTD Cats","header":"1.3.2. Curtain","id":"/Cat-Haikus/SUTD-Cats/Curtain/#Bonjour--Cat-Haikus--SUTD-Cats--Curtain"}});

@@ -1,1 +1,0 @@
-window.docContents[146].resolve({"/Cat-Haikus/NTU-Cats/Palm/#Bonjour--Cat-Haikus--NTU-Cats--Palm":{"contents":"What are the palm trees\n\npeeking round the corner at?\n\nI wanna see too\n\n \n\n","context":"Bonjour\u0009Cat Haikus\u0009NTU Cats","header":"1.1.5. Palm","id":"/Cat-Haikus/NTU-Cats/Palm/#Bonjour--Cat-Haikus--NTU-Cats--Palm"}});

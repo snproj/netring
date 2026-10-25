@@ -1,1 +1,0 @@
-window.docContents[128].resolve({"/Cat-Haikus/NUS-Cats/Wares/#Bonjour--Cat-Haikus--NUS-Cats--Wares":{"contents":" \n\n","context":"Bonjour\u0009Cat Haikus\u0009NUS Cats","header":"1.2.6. Wares","id":"/Cat-Haikus/NUS-Cats/Wares/#Bonjour--Cat-Haikus--NUS-Cats--Wares"}});

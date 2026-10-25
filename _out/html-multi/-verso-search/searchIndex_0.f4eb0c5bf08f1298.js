@@ -1,1 +1,0 @@
-window.docContents[0].resolve({"/Cat-Haikus/SUTD-Cats/Leaf/#Bonjour--Cat-Haikus--SUTD-Cats--Leaf":{"contents":"It's hard to avoid the green stuff when you're living the rockstar life.\n\n \n\n","context":"Bonjour\u0009Cat Haikus\u0009SUTD Cats","header":"1.3.6. Leaf","id":"/Cat-Haikus/SUTD-Cats/Leaf/#Bonjour--Cat-Haikus--SUTD-Cats--Leaf"}});

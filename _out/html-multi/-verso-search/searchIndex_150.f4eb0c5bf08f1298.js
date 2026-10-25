@@ -1,1 +1,0 @@
-window.docContents[150].resolve({"/Cat-Haikus/NUS-Cats/Silly/#Bonjour--Cat-Haikus--NUS-Cats--Silly":{"contents":"All these annoying\n\nand emptyheaded hoomans —\n\nwere I only one.\n\n \n\n","context":"Bonjour\u0009Cat Haikus\u0009NUS Cats","header":"1.2.4. Silly","id":"/Cat-Haikus/NUS-Cats/Silly/#Bonjour--Cat-Haikus--NUS-Cats--Silly"}});

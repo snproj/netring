@@ -1,1 +1,0 @@
-window.docContents[204].resolve({"/Cat-Haikus/SUTD-Cats/Sesame/#Bonjour--Cat-Haikus--SUTD-Cats--Sesame":{"contents":"The sesame bun\n\nsquishy-soft as it might look\n\nis not for eating\n\n \n\n","context":"Bonjour\u0009Cat Haikus\u0009SUTD Cats","header":"1.3.8. Sesame","id":"/Cat-Haikus/SUTD-Cats/Sesame/#Bonjour--Cat-Haikus--SUTD-Cats--Sesame"}});
