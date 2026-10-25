@@ -82,6 +82,7 @@ where
 
 open Verso.Output Html in
 def config : RenderConfig where
+  destination := "docs" -- hardcoded Github name
   emitTeX := false
   emitHtmlSingle := .no
   emitHtmlMulti := .immediately

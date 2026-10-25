@@ -1,0 +1,1 @@
+window.docContents[202].resolve({"/Cat-Haikus/SUTD-Cats/Stretch/#Bonjour--Cat-Haikus--SUTD-Cats--Stretch":{"contents":"I will yawn and stretch\n\ntil my head and feet do reach\n\nboth ends of this bench\n\n \n\n","context":"Bonjour\u0009Cat Haikus\u0009SUTD Cats","header":"1.3.9. Stretch","id":"/Cat-Haikus/SUTD-Cats/Stretch/#Bonjour--Cat-Haikus--SUTD-Cats--Stretch"}});

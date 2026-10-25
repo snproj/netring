@@ -1,0 +1,1 @@
+window.docContents[92].resolve({"/Cat-Haikus/NTU-Cats/In-the-Hat/#Bonjour--Cat-Haikus--NTU-Cats--In-the-Hat":{"contents":" \n\n","context":"Bonjour\u0009Cat Haikus\u0009NTU Cats","header":"1.1.1. In the Hat","id":"/Cat-Haikus/NTU-Cats/In-the-Hat/#Bonjour--Cat-Haikus--NTU-Cats--In-the-Hat"}});

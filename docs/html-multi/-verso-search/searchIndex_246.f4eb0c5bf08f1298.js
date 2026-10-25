@@ -1,0 +1,1 @@
+window.docContents[246].resolve({"/Cat-Haikus/SUTD-Cats/Guard/#Bonjour--Cat-Haikus--SUTD-Cats--Guard":{"contents":"On this terraced hill\n\nstands a tower with a guard\n\nwho is really cute.\n\n \n\n","context":"Bonjour\u0009Cat Haikus\u0009SUTD Cats","header":"1.3.4. Guard","id":"/Cat-Haikus/SUTD-Cats/Guard/#Bonjour--Cat-Haikus--SUTD-Cats--Guard"}});

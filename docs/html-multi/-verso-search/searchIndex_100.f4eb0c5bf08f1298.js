@@ -1,0 +1,1 @@
+window.docContents[100].resolve({"/Cat-Haikus/NUS-Cats/Jade/#Bonjour--Cat-Haikus--NUS-Cats--Jade":{"contents":"Two pieces of jade\n\nBoth inlaid with many stars\n\nWhiskers of a cat\n\n \n\n","context":"Bonjour\u0009Cat Haikus\u0009NUS Cats","header":"1.2.2. Jade","id":"/Cat-Haikus/NUS-Cats/Jade/#Bonjour--Cat-Haikus--NUS-Cats--Jade"}});

@@ -1,0 +1,1 @@
+window.docContents[14].resolve({"/Cat-Haikus/#Bonjour--Cat-Haikus":{"contents":"\n\n\n\n\n\n","context":"Bonjour","header":"1. Cat Haikus","id":"/Cat-Haikus/#Bonjour--Cat-Haikus"}});

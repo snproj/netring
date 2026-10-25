@@ -1,0 +1,1 @@
+window.docContents[152].resolve({"/Cat-Haikus/NTU-Cats/Path/#Bonjour--Cat-Haikus--NTU-Cats--Path":{"contents":"The path ahead\n\nBlurred by my breath on the glass\n\nSuddenly, my face\n\n \n\n","context":"Bonjour\u0009Cat Haikus\u0009NTU Cats","header":"1.1.6. Path","id":"/Cat-Haikus/NTU-Cats/Path/#Bonjour--Cat-Haikus--NTU-Cats--Path"}});
