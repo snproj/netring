@@ -26,7 +26,7 @@ if __name__ == '__main__':
     parser.add_argument('-b', '--bind', metavar='ADDRESS',
                         help='bind to this address '
                              '(default: all interfaces)')
-    parser.add_argument('-d', '--directory', default="_out/html-multi",
+    parser.add_argument('-d', '--directory', default="docs",
                         help='serve this directory '
                              '(default: out)')
     parser.add_argument('-p', '--protocol', metavar='VERSION',

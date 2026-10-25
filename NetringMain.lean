@@ -80,9 +80,47 @@ where
     | .para .. | .code .. => pure ()
 
 
+def saveForPreserving (toBeNuked : System.FilePath) (filenamesForPreservation : List String) : IO (Array (String × ByteArray)) := do
+  if !(← toBeNuked.pathExists) then
+    return #[]
+  let mut saved: Array (String × ByteArray) := #[]
+  for path in ← toBeNuked.walkDir do
+    if let some name := path.fileName then
+      if filenamesForPreservation.contains name && !(← path.isDir) then
+        saved := saved.push (name, ← IO.FS.readBinFile path)
+  return saved
+
+def restorePreserved (parent : System.FilePath) (saved : Array (String × ByteArray)) : IO Unit := do
+  IO.FS.createDirAll parent
+  for (name, contents) in saved do
+    IO.FS.writeBinFile (parent / name) contents
+
+def outputDir : String := "docs"
+def preserve : List String := ["CNAME"]
+
+def clearWithPreservationList (fileToClear : System.FilePath) (toBePreserved : List String) : IO Unit := do
+  let preserved ← saveForPreserving fileToClear toBePreserved
+  if ← fileToClear.pathExists then
+    IO.FS.removeDirAll fileToClear
+  restorePreserved fileToClear preserved
+
+def formatOutputForGithubPages (mode : Mode) (config : Config) (_s : TraverseState) (_t : Part Manual) : BuildLogT IO Unit := do
+
+  -- Exit without doing anything if the project is being run weirdly
+  let .multi := mode
+    | pure ()
+
+  clearWithPreservationList outputDir preserve
+
+  let src := config.destination / "html-multi"
+  Verso.FS.copyRecursively src outputDir
+
+  IO.FS.removeDirAll config.destination
+
+
+
 open Verso.Output Html in
 def config : RenderConfig where
-  destination := "docs" -- hardcoded Github name
   emitTeX := false
   emitHtmlSingle := .no
   emitHtmlMulti := .immediately
@@ -94,4 +132,28 @@ def config : RenderConfig where
     {{<link rel="stylesheet" href="custom_css/image_sizing.css"/>}}
   ]
 
-def main := manualMain (%doc Netring) (extraSteps := [buildExercises]) (config := config)
+theorem defaultDestination : config.destination.fileName = some "_out" := by native_decide
+
+theorem noFileNameClashes :
+  ∃ dest_isSome : config.destination.fileName.isSome = true,
+    Option.get config.destination.fileName dest_isSome ∉ [outputDir] ++ preserve
+  := by
+
+  have h : config.destination.fileName.isSome = true := by
+    simp [defaultDestination]
+
+  exists h
+
+  intro bad
+
+  simp [defaultDestination] at bad
+
+  cases bad with
+  | inl s =>
+    change "_out" = "docs" at s
+    contradiction
+  | inr x =>
+    change "_out" ∈ ["CNAME"] at x
+    contradiction
+
+def main := manualMain (%doc Netring) (extraSteps := [buildExercises, formatOutputForGithubPages]) (config := config)

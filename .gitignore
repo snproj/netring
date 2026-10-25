@@ -1,0 +1,4 @@
+.lake/*
+
+# this shouldn't be generated, but just in case
+_out/
